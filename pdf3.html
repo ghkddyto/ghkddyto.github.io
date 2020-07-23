@@ -11,10 +11,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 
+
+
     <style> 
 
     #container {
         position: relative;
+        width: AUTO;
+        max-height: auto;
 
         
     }
@@ -55,14 +59,19 @@
     <div id="container2">
         <div id="thumb" ></div>
     </div>
-   
+    
+    
+
+    
+    
+
 
     <script>
     
     //회전 함수
     var angle = 0;
     $('#button').on('click', function() {	
-        angle += 180;
+        angle += 90;
         $('#thumb').css('transform','rotate(' + angle % 360 + 'deg)');
     });
 
@@ -83,10 +92,10 @@
 
     //PDF 생성 함수
     $('#create_pdf').click(function() {
-ff
+
 
         //div를 canvas객체로 변환
-        html2canvas($('#container1')[0]).then(function(canvas) {          
+        html2canvas($('#container')[0]).then(function(canvas) {          
             var imgData = canvas.toDataURL('image/png');
             var imgWidth = 210; 
             var pageHeight = 295; 
@@ -96,7 +105,9 @@ ff
             var position = 0; 
             
             doc.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight); 
-            heightLeft -= pageHeight;           
+            heightLeft -= pageHeight; 
+
+            
 
             while (heightLeft >= 0) {
                 position = heightLeft - imgHeight;
@@ -104,14 +115,24 @@ ff
                 doc.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight); 
                 heightLeft -= pageHeight; 
             }
+
             
+
             doc.addPage();
             doc.addImage(imgData2, 'PNG', 0, position, imgWidth, imgHeight); 
             heightLeft = imgHeight2;
 
+            
+            
 
             doc.save('test.pdf');
-         });
+
+
+     });
+
+        
+
+
     });
 
 
