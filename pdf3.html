@@ -12,7 +12,6 @@
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 
 
-
     <style> 
 
     #container {
@@ -59,11 +58,6 @@
     <div id="container2">
         <div id="thumb" ></div>
     </div>
-    
-    
-
-    
-    
 
 
     <script>
@@ -89,7 +83,6 @@
         });
     };
 
-
     //PDF 생성 함수
     $('#create_pdf').click(function() {
 
@@ -106,9 +99,7 @@
             
             doc.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight); 
             heightLeft -= pageHeight; 
-
             
-
             while (heightLeft >= 0) {
                 position = heightLeft - imgHeight;
                 doc.addPage(); 
@@ -116,25 +107,14 @@
                 heightLeft -= pageHeight; 
             }
 
-            
 
             doc.addPage();
             doc.addImage(imgData2, 'PNG', 0, position, imgWidth, imgHeight); 
             heightLeft = imgHeight2;
 
-            
-            
-
             doc.save('test.pdf');
-
-
      });
-
-        
-
-
     });
-
 
     </script>
 
