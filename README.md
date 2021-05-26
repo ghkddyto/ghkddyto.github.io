@@ -6,7 +6,9 @@
 #### 사진 각도가 뒤죽박죽 되는 문제가 발생
 
 #### 문제를 해결하기 위해 
-#### [JavasSript Load Image](https://github.com/blueimp/JavaScript-Load-Image) 라이브러리 사용
+#### [JavasSript Load Image](https://github.com/blueimp/JavaScript-Load-Image) 라이브러리 사용하여
+#### 보정이 아닌 회전 값 자체를 초기화 하는 방식을 사용.
+#### 사용자의 편의성을 위해 수동 회전 기능을 추가함.
 
 [데모 홈페이지 이동](https://ghkddyto.github.io/)
 
