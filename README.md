@@ -1,4 +1,4 @@
-# html & javascript
+# 이미지 보정 프로젝트
 
 #### 스마트폰으로 촬영할 때 기울임에 따라 
 #### 이미지 보정을 하기 위한 회전 값(EXIF)이 추가되는데
@@ -9,3 +9,7 @@
 #### [JavasSript Load Image](https://github.com/blueimp/JavaScript-Load-Image) 라이브러리 사용
 
 [데모 홈페이지 이동](https://ghkddyto.github.io/)
+
+
+#### 그 외사용된 라이브러리
+#### [jquery](https://github.com/jquery/jquery), [html2canvas](https://github.com/niklasvh/html2canvas)
