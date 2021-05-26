@@ -15,5 +15,5 @@
 ![EXIF예시이미지](orientation.gif)
 
 
-#### 그 외사용된 라이브러리
+#### 그 외 사용된 라이브러리
 #### [jquery](https://github.com/jquery/jquery), [html2canvas](https://github.com/niklasvh/html2canvas)
