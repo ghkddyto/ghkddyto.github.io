@@ -10,7 +10,8 @@ iframe 태그를 사용해
 <iframe src="https://www.youtube.com/embed/복사한 코드"></iframe>
 
 ### 자동 재생(&autoplay=1)
-src="https://www.youtube.com/embed/D6Ac5JpCHmI?&autoplay=1"
+src="https://www.youtube.com/embed/D6Ac5JpCHmI?autoplay=1&mute=1" allow='autoplay'
+
 
 ### 시작 지점 지정(?start=초)
 src="http://www.youtube.com/embed/UkWd0azv3fQ?start=90"
