@@ -5,9 +5,18 @@
 
 [데모 홈페이지 이동](https://ghkddyto.github.io/Add_Youtube/index.html)
 
-#### 코드는 다음과 같음
-![유튜브 공유하에서 밑줄 친 코드 복사](example.jpg)
-<iframe class="ytb" src="https://www.youtube.com/embed/복사한 코드"></iframe>
+
+
+### 메인 코드
+![유튜브 공유하기에서 밑줄 친 코드 복사](example.jpg)
+<iframe src="https://www.youtube.com/embed/복사한 코드"></iframe>
+
+#### 자동 재생(&autoplay=1)
+src="https://www.youtube.com/embed/D6Ac5JpCHmI?&autoplay=1"
+
+#### 시작 지점 지정(?start=초)
+src="http://www.youtube.com/embed/UkWd0azv3fQ?start=90"
+
 
 
 #### 출처
