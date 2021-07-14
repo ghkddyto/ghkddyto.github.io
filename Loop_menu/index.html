@@ -1,0 +1,50 @@
+<html>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/jquery.carouFredSel-6.2.1.js"></script>
+<head>
+<style>
+.wrap{ max-width:100%; height: 400px; margin:0 auto;}
+
+.loop_menu{ background-color:rgb(152, 222, 224); width:100%; height:200px; overflow:hidden;}
+.loop_menu ul{position:absolute; left:-3%; list-style:none;}
+.loop_menu li{float:left; width:200px; margin:10px; }
+.loop_menu img{width:200px;}
+
+.arrow_wrap{float:bottom;width:200px; margin:0 auto;}
+.right_arrow{display:inline; color:rgb(107, 107, 107); font-size:60px; font-weight:600;  margin:10px;}
+.left_arrow{display:inline; color:rgb(107, 107, 107); font-size:60px; font-weight:600; margin:10px;}
+</style>
+</head>
+
+<body>
+<div class='wrap'>
+    <div class='loop_menu'>
+        <ul>
+            <li><img src="1.jpg"></li>
+            <li><img src="2.jpg"></li>
+            <li><img src="3.jpg"></li>
+            <li><img src="4.jpg"></li>
+            <li><img src="6.jpg"></li>
+            <li><img src="7.jpg"></li>
+        </ul>
+    </div>
+
+    <div class='arrow_wrap'>
+        <div class='left_arrow'><</div>
+        <div class='right_arrow'>></div>
+    </div>
+</div>
+<script>
+    $('.loop_menu ul').carouFredSel({
+            direction: 'left',
+            items:{minimum:6},
+            width:'100%',
+            auto:true,
+            prev:{ button:'.left_arrow' },
+            next:{ button:'.right_arrow' }, 
+            scroll:1
+        });
+</script>
+</body>
+
+</html>
