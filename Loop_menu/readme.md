@@ -7,14 +7,14 @@
 
 ## 메인 코드
 ![예시](example.jpg)
-$('.loop_menu ul').carouFredSel({
-            direction: 'left', //방향
-            items:{minimum:6}, //메뉴 갯수
-            width:'100%',
-            auto:true, //오토슬라이드
-            prev:{ button:'.left_arrow' }, //이전 버튼 지정
-            next:{ button:'.right_arrow' }, //다음 버튼 지정
-            scroll:1
+$('.loop_menu ul').carouFredSel({ \n
+            direction: 'left', //방향 \n
+            items:{minimum:6}, //메뉴 갯수 \n
+            width:'100%', \n
+            auto:true, //오토슬라이드 \n
+            prev:{ button:'.left_arrow' }, //이전 버튼 지정 \n
+            next:{ button:'.right_arrow' }, //다음 버튼 지정 \n
+            scroll:1 \n
         });
 
 
