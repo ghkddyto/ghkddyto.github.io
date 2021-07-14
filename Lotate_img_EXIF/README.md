@@ -10,7 +10,7 @@
 #### 보정이 아닌 회전 값 자체를 초기화 하는 방식을 사용.
 #### 사용자의 편의성을 위해 수동 회전 기능을 추가함.
 
-[데모 홈페이지 이동](https://ghkddyto.github.io/)
+[데모 홈페이지 이동](https://ghkddyto.github.io/Lotate_img_EXIF/index.html)
 
 
 #### EXIF값으로 적용되는 회전은 다음과 같음
