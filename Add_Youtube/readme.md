@@ -6,7 +6,7 @@ iframe 태그를 사용해
 
 
 ## 메인 코드
-![유튜브 공유하기에서 밑줄 친 코드 복사](example.jpg)
+![유튜브 공유하기에서 밑줄 친 코드 복사](url.jpg)
 <iframe src="https://www.youtube.com/embed/복사한 코드"></iframe>
 
 ### 자동 재생(&autoplay=1)
