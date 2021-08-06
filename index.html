@@ -3,6 +3,14 @@
 <style>
   .page{text-align:center;}
   .title{ font-size:17px; font-weight:450;}
+  
+  /*-----유튜브------------*/
+  .ytb_bg{width:100%; height:350px; background-color: #444;}
+.ytb_in {position:relative; margin:auto auto; max-width:1000px; height:90%; }
+.ytb_title {margin:20px; text-align:center; font-size:15px; font-weight:600; color:#eee;}
+.ytb_left_img {position:absolute; left:0px; background-color: #eee; width:50%; height:95%;}
+.ytb {position:absolute; right:0px; width:50%; height:95%;}
+  
 </style>
 </head>
 <body>
@@ -12,7 +20,13 @@
 <div class='page'>
   <div class='title'><a href="https://github.com/ghkddyto/ghkddyto.github.io/tree/master/Add_Youtube">
     페이지에 유튜브 추가 </a></div>
-  <img src='/Add_Youtube/example.jpg'>
+  <div class='ytb_bg'>
+    <div class='ytb_in'>
+        <div class='ytb_title'>치킨의 역사</div>
+        <img class='ytb_left_img' src = 'chicken.jpg'></img>
+        <iframe class='ytb' src='https://www.youtube.com/embed/PwA9_7bv6kg' frameborder='0' allowfullscreen=''></iframe>
+    </div>
+</div>
 </div>
   
   <br><br><br>
