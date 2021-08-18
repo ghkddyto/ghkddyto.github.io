@@ -1,0 +1,26 @@
+.App{
+  width:500px;
+  height:2000px;
+  background-color: #3A3A3A;
+}
+
+.App-header{ 
+  position:relative;
+  height:50px;
+
+ }
+
+ .App-header .home{
+  position:absolute;
+  left:0px;
+  height:100%;
+  } 
+  .App-header .home img{height:100%;}
+
+  .App-header .wish{
+    position:absolute;
+    right:0px;
+    height:100%;
+    } 
+  
+    .App-header .wish img{height:100%;}
