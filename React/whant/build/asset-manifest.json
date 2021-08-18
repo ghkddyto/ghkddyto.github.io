@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/React/whant/build/static/css/main.7104fb14.chunk.css",
     "main.js": "/React/whant/build/static/js/main.b717e242.chunk.js",
     "main.js.map": "/React/whant/build/static/js/main.b717e242.chunk.js.map",
@@ -15,6 +16,23 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f574192f.js",
+=======
+    "main.css": "/React/static/css/main.7104fb14.chunk.css",
+    "main.js": "/React/static/js/main.b717e242.chunk.js",
+    "main.js.map": "/React/static/js/main.b717e242.chunk.js.map",
+    "runtime-main.js": "/React/static/js/runtime-main.e12386f9.js",
+    "runtime-main.js.map": "/React/static/js/runtime-main.e12386f9.js.map",
+    "static/js/2.3c24272e.chunk.js": "/React/static/js/2.3c24272e.chunk.js",
+    "static/js/2.3c24272e.chunk.js.map": "/React/static/js/2.3c24272e.chunk.js.map",
+    "static/js/3.14dbab28.chunk.js": "/React/static/js/3.14dbab28.chunk.js",
+    "static/js/3.14dbab28.chunk.js.map": "/React/static/js/3.14dbab28.chunk.js.map",
+    "index.html": "/React/index.html",
+    "static/css/main.7104fb14.chunk.css.map": "/React/static/css/main.7104fb14.chunk.css.map",
+    "static/js/2.3c24272e.chunk.js.LICENSE.txt": "/React/static/js/2.3c24272e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e12386f9.js",
+>>>>>>> 4fe3dad4df9633ad54e9474cf0d1b1b80215d89d
     "static/js/2.3c24272e.chunk.js",
     "static/css/main.7104fb14.chunk.css",
     "static/js/main.b717e242.chunk.js"
