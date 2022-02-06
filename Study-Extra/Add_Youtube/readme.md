@@ -2,7 +2,7 @@
 iframe 태그를 사용해
 웹페이지에 원하는 유튜브 영상 삽입하기
 
-## [데모 홈페이지 이동](https://ghkddyto.github.io/Add_Youtube/index.html)
+## [데모 홈페이지 이동](https://ghkddyto.github.io/Study-Extra/Add_Youtube/index.html)
 
 
 ## 메인 코드
