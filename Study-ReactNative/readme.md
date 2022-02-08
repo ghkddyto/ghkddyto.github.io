@@ -1,6 +1,6 @@
-#리액트 네이티브 설치하기
+# 리액트 네이티브 설치하기
 
-##작성자 시스템 환경
+## 작성자 시스템 환경
 
 CPU: Ryzen 5 5600X
 
@@ -26,11 +26,11 @@ Android SDK: Android 11.0(R)
 
  
 
-##python
+## python
 
 리액트 네이티브 빌드에 필요.
 
-파이썬 공식 홈페이지( https://www.python.org/downloads/ )에서 
+[파이썬 공식 홈페이지]( https://www.python.org/downloads/ )에서 
 
 latest version 다운로드 시 cpu 사양에 맞게 자동으로 최신버전 다운로드
 
@@ -38,7 +38,7 @@ latest version 다운로드 시 cpu 사양에 맞게 자동으로 최신버전 �
 
  
 
-##Java JDK
+## Java JDK
 
 [오라클 공식 홈페이지]( https://www.oracle.com/java/technologies/downloads/#java8-windows )에서 다운로드
 
@@ -70,7 +70,7 @@ latest version 다운로드 시 cpu 사양에 맞게 자동으로 최신버전 �
 
  
 
-##Node.js
+## Node.js
 
 Node.js 일부 버전에서 리액트 네이티브와 호환성 문제 있음
 
@@ -86,7 +86,7 @@ Node.js 일부 버전에서 리액트 네이티브와 호환성 문제 있음
 
  
 
-##Android Studio
+## Android Studio
 
 설치 전 가상화 기술을 활성화 해야 하는데
 
@@ -130,7 +130,7 @@ SVM mode는 asus 메인보드 기준 부팅 후 바이오스 진입해서 Advanc
 
  
 
-##React-native
+## React-native
 
 cmd창에서 npm install -g react-native-cli 입력하면 설치
 
@@ -156,7 +156,7 @@ node js는 자동으로 같이 실행
 
  
 
-##Visual Studio Code
+## Visual Studio Code
 
 리액트 네이티브 프로젝트의 코드 파일인 App.js 편집에 유용
 
